@@ -1,0 +1,79 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar .navbar-brand {
+  font-size: 3.2rem !important;
+  color: #fff;
+  font-weight: 700;
+}
+
+.navbar {
+  background-color: #557153;
+}
+
+.panel-body{
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.refresh-btn i{
+    transition: all .5s !important;
+}
+.refresh-btn:hover i{
+    transform: rotate(360deg);
+}
+.answer-list{
+    border-bottom: 1px solid rgb(198, 198, 198);
+    margin-bottom: 10px;
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(194, 194, 194);
+    margin: 10px 0;
+}
+
+.panel-box{
+    padding: 0 10px;
+}
+
+.panel-box .border{
+    padding: 10px 20px;
+    border: none !important;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 5px rgba(155, 154, 154, 0.1);
+}
+
+.offer-btn{
+    text-decoration: none;
+    color: #557153;
+    transition: all .5s;
+    padding: 10px;
+    border-radius: 5px;
+}
+.offer-btn:hover{
+    text-decoration: none;
+    background-color: #557153;
+    color: #fff;
+}
+
+.send-btn{
+    display: flex;
+    justify-content: end;
+}
+
+.send-btn button{
+    border: none;
+    background-color: #557153;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+textarea{
+    padding: 10px;
+}
